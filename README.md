@@ -10,6 +10,13 @@ urlFragment: web-app-visualization
 description: "This repo contains code for a web application, which can read temperature and humidity data from IoT Hub and show the real-time data on a web page."
 ---
 
+# Web apps for microservices visualization
+First, create a Azure Iot hub service. Then set up the configuration in server.js (Connection String and Consumer Group). Finally, 'npm start' run the application. 
+
+References: https://docs.microsoft.com/en-us/azure/iot-hub/quickstart-send-telemetry-node
+https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps
+
+
 # web-apps-node-iot-hub-data-visualization
 
 This repo contains code for a web application, which can read temperature and humidity data from IoT Hub and show the real-time data in a line chart on the web page.
